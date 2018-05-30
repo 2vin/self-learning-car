@@ -50,4 +50,5 @@ In new terminal, type the following command:
 `torcs`     
 This will open the simulator in new window. In order to see the self-learning-car in action, go to `Race` -> `Practice` -> `Configure Race`, and see select 'ROBO' from the list. Then, start `New Race` in `Practice` to see the car running on track.   
 
-
+# Car in action   
+![Demo](https://github.com/2vin/self-learning-car/blob/master/video.gif)    
