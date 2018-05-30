@@ -35,9 +35,9 @@ We used Q-learning for training our self-learning car. With a total of 200 `stat
    `sudo make install`    
    `sudo make datainstall`    
 6. Add following lines in ~/.bashrc file     
-    `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib         
-    export TORCS_BASE=path_where_repo_is_saved        
-    export MAKE_DEFAULT=$TORCS_BASE/Make-default.mk`           
+    `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib`         
+    `export TORCS_BASE=path_where_repo_is_saved`        
+    `export MAKE_DEFAULT=$TORCS_BASE/Make-default.mk`           
 
 # Compile       
 Go to `self-driving-car/src/drivers` directory and run the following command:     
