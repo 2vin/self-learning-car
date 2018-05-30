@@ -1,7 +1,7 @@
 # self-learning-car     
 Reinforcement learning for steering control of car     
 
-This repository contains modified version of ![TORCS](https://sourceforge.net/projects/torcs)    
+This repository contains modified version of [TORCS](https://sourceforge.net/projects/torcs)    
 TORCS is an open racing car simulator which can be programmed in C++. We can create and program car(s) in TORCS to perform different tasks. In this repository, I have created a car named "ROBO" which performs self learning task on a given track.   
 We used Q-learning for training our self-learning car. With a total of 200 `states` and 7 `actions`, the car is able to predict steering values accurately. 
 
@@ -35,9 +35,9 @@ We used Q-learning for training our self-learning car. With a total of 200 `stat
    `sudo make install`    
    `sudo make datainstall`    
 6. Add following lines in ~/.bashrc file     
-    `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib     
-    export TORCS_BASE=path_where_repo_is_saved     
-    export MAKE_DEFAULT=$TORCS_BASE/Make-default.mk`      
+    `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib         
+    export TORCS_BASE=path_where_repo_is_saved        
+    export MAKE_DEFAULT=$TORCS_BASE/Make-default.mk`           
 
 # Compile       
 Go to `self-driving-car/src/drivers` directory and run the following command:     
