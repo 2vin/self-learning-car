@@ -8,20 +8,20 @@ We used Q-learning for training our self-learning car. With a total of 200 `stat
 # Dependencies    
 1. Install following dependecies:    
     `sudo apt-get install build-essential libxmu-dev libxmu6 libxi-dev libxine-dev libalut-dev freeglut3 freeglut3-dev cmake libogg-dev libvorbis-dev libxxf86dga-dev libxxf86vm-dev libxrender-dev libxrandr-dev zlib1g-dev libpng12-dev`    
-2. Download ![PLIB 1.8.5](http://plib.sourceforge.net)     
+2. Download [PLIB 1.8.5](http://plib.sourceforge.net)     
    `tar xfvz /path/plib-1.8.5*`        
    `cd plib-1.8.5`    
    `./configure CFLAGS="-fPIC" CXXFLAGS="-fPIC" CPPFLAGS="-fPIC"`     
    `make`     
    `sudo make install`         
-3. Download ![OpenAL](http://kcat.strangesoft.net/openal.html)    
+3. Download [OpenAL](http://kcat.strangesoft.net/openal.html)    
    `tar xfvj /path/openal-soft-1.17.2*`    
    `cd openal-soft-1.17.2`    
    `cd build`    
    `cmake ..`     
    `make`     
    `sudo make install`
-4. Download ![FreeGlut](http://freeglut.sourceforge.net)     
+4. Download [FreeGlut](http://freeglut.sourceforge.net)     
    `tar xfvz /path/freeglut-3.0.0*`     
    `cd freeglut-3.0.0`    
    `cmake .`    
@@ -40,13 +40,14 @@ We used Q-learning for training our self-learning car. With a total of 200 `stat
     export MAKE_DEFAULT=$TORCS_BASE/Make-default.mk`      
 
 # Compile       
-Go to `self-driving-car/src/drivers` directory and run the following command:    
+Go to `self-driving-car/src/drivers` directory and run the following command:     
 `make`    
 `make install`    
 (Note: In order to train the robot, go to ROBO.cpp and change value of `TRAINACTIVE` & `STARTACTIVE` to `true`. For testing mode, set these values to false)    
 
 # Usage    
-In new terminal, type the following command:
-`torcs`    
-This will open the simulator in new window. In order to see the self-learning-car in action, go to `Race` -> `Practice` -> `Configure Race`, and see select 'ROBO' from the list. Then, start `New Race` in `Practice` to see the car running on track.
+In new terminal, type the following command:    
+`torcs`     
+This will open the simulator in new window. In order to see the self-learning-car in action, go to `Race` -> `Practice` -> `Configure Race`, and see select 'ROBO' from the list. Then, start `New Race` in `Practice` to see the car running on track.   
+
 
